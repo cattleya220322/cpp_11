@@ -1,6 +1,9 @@
 /// @file lexer.h
 /// @brief レクサ（字句解析器）のインターフェイス
 
+#ifndef DESKCALCULATOR_LEXER_H_
+#define DESKCALCULATOR_LEXER_H_
+
 #include <string>
 #include <iostream>
 
@@ -75,3 +78,5 @@ namespace Lexer
 
   extern TokenStream ts;
 }
+
+#endif // DESKCALCULATOR_LEXER_H_

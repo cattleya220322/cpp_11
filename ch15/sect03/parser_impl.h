@@ -1,6 +1,9 @@
 /// @file parser_impl.h
 /// @brief パーサ（構文解析器）を実装する関数用の共通環境（実装者用インターフェイス）
 
+#ifndef DESKCALCULATOR_PAESER_IMPL_H_
+#define DESKCALCULATOR_PAESER_IMPL_H_
+
 #include "parser.h"
 #include "lexer.h"
 #include "error.h"
@@ -18,3 +21,5 @@ namespace Parser
   double Term(bool get);
   double Expr(bool get);
 }
+
+#endif // DESKCALCULATOR_PAESER_IMPL_H_
